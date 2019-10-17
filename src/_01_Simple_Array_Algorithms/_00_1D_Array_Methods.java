@@ -14,7 +14,7 @@ for (int i = 0; i < values.length; i++) {
 	//2. Complete the method so that it returns the average of all
 	//   of the integers in the array being passed in
 	public static double averageIntArray(int[] values) {
-		int sum=0;
+		double sum=0;
 		for (int i = 0; i < values.length; i++) {
 			sum+=values[i];
 		}
@@ -48,6 +48,6 @@ for (int i = 0; i < values.length; i++) {
 				return i;
 			}
 			}
-		return 0;
+		return -1;
 	}
 }
